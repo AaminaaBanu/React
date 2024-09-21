@@ -1,0 +1,62 @@
+.settings-panel {
+  width: 300px; /* Wider than before */
+  border: 1px solid #ccc;
+  padding: 30px;
+  background-color: #1a1a1a; /* Dark gray background */
+  color: white; /* Change text color to white for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin: 20px auto; /* Center the panel */
+}
+
+.settings-panel h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.settings-panel button {
+  background-color: #28a745; /* Green button color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.settings-panel button:hover {
+  background-color: #218838; /* Darker green shade on hover */
+}
+
+.settings-panel .discard-button {
+  background-color: #dc3545; /* Red button color */
+}
+
+.settings-panel .discard-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.settings-panel input[type="text"],
+.settings-panel input[type="email"],
+.settings-panel textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #222; /* Darker input background */
+  color: white;
+}
+
+.settings-panel input[type="file"] {
+  margin-bottom: 10px;
+  padding: 5px; /* Adjust padding for better appearance */
+}
+
+.file-input {
+  border: 1px solid #ccc; /* Border for file input */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #222; /* Dark background */
+  color: white; /* White text for contrast */
+}

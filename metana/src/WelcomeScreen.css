@@ -1,0 +1,28 @@
+.welcome-screen {
+    text-align: center;
+    padding: 100px;
+    background-color: black; /* Set background to black */
+    color: white; /* Change text color to white for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .welcome-screen h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-screen p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-screen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  

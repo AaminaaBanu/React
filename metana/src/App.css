@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+.app {
+  text-align: center;
+}
+
+.welcome-screen, .settings-panel {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.app {
+  text-align: center;
+}
+
+.welcome-screen, .settings-panel {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}

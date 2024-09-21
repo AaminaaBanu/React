@@ -1,0 +1,65 @@
+.email-screen {
+  text-align: center;
+  padding: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.email-screen h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.email-screen p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.success {
+  color: green; /* Success message in green */
+}
+
+.error {
+  color: red; /* Error message in red */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button.save {
+  background-color: green; /* Save button in green */
+  color: white;
+}
+
+button.discard {
+  background-color: red; /* Discard button in red */
+  color: white;
+}
+input[type="email"] {
+  width: 40%; /* Adjust width as needed */
+  height: 40px; /* Set height */
+  padding: 10px; /* Add padding */
+  border: 2px solid white; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  background-color: transparent; /* Transparent background */
+  color: white; /* Text color */
+  font-size: 1em; /* Font size */
+}
+
+input[type="email"]:focus {
+  border-color: green; /* Border color on focus */
+  outline: none; /* Remove outline */
+}
+
